@@ -1,0 +1,18 @@
+rpc_url: https://api.mainnet-beta.solana.com
+
+http:
+  listen_address: 0.0.0.0
+  listen_port: 9196
+
+validators:
+  - name: kiln
+    description: kiln-validator.solana.mainnet.kiln.fi
+    validator_vote_account: 
+      pubkey: DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m
+    validator_identity_account:
+      pubkey: 5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm
+
+accounts:
+  - description: kiln-validator.solana.mainnet.kiln.fi
+    pubkey: 5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm
+  - pubkey: 8hPdaF3MrSxM8zZevaUZy3miNNgCoj67eita7GRSiMzV
