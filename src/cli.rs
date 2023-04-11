@@ -6,5 +6,5 @@ use std::path::PathBuf;
 pub struct Cli {
     /// Sets a custom config file
     #[arg(short, long, value_name = "FILE")]
-    pub config: Option<PathBuf>,
+    pub config: PathBuf,
 }
